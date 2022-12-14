@@ -1,0 +1,22 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AddCannedAcl",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::912290622507:user/salaoNaMaoDev"
+      },
+      "Action": [
+        "s3:PutObject",
+        "s3:PutObjectAcl"
+      ],
+      "Resource": "arn:aws:s3:::salao-namao-martorelli/*",
+      "Condition": {
+        "StringEquals": {
+          "s3:x-amz-acl": "public-read"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "web-service",
+  "version": "1.0.0",
+  "description": "web service salão na mão",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMartorelli/salaonamao.git"
+  },
+  "author": "Gabriel Martorelli",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/GabrielMartorelli/salaonamao/issues"
+  },
+  "homepage": "https://github.com/GabrielMartorelli/salaonamao#readme",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "aws-sdk": "^2.1261.0",
+    "axios": "^1.2.0",
+    "busboy": "^1.6.0",
+    "busboy-body-parser": "^0.3.2",
+    "connect-busboy": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
